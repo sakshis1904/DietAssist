@@ -28,7 +28,7 @@ const UserPrograms = () => {
                         <div className="flex items-center gap-3">
                             <div className="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></div>
                             <span className="text-base text-primary font-semibold tracking-wide">
-                                AI Program Gallery
+                                AI Fitness Program Hub
                             </span>
                         </div>
                         <div className="text-sm text-muted-foreground">Top User Protocols</div>
@@ -36,10 +36,10 @@ const UserPrograms = () => {
 
                     <div className="p-10 text-center">
                         <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-foreground">
-                            Precision-Forged <span className="text-primary">AI Workouts</span>
+                            Expertly Crafted <span className="text-primary">AI Workouts</span>
                         </h2>
                         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
-                            Discover optimized fitness blueprints engineered by our AI for real users like you.
+                            Experience AI-crafted fitness strategies tailored for practical, real-world use.
                         </p>
 
                         <div className="flex flex-wrap items-center justify-center gap-12 mt-12 font-mono">
@@ -184,12 +184,12 @@ const UserPrograms = () => {
                             size="lg"
                             className="bg-gradient-to-tr from-primary to-primary/80 text-black px-10 py-6 text-lg shadow-xl hover:scale-105 transition-transform"
                         >
-                            Generate My AI Program
+                            Get My Smart AI Program
                             <Sparkles className="ml-3 h-5 w-5" />
                         </Button>
                     </Link>
                     <p className="text-muted-foreground mt-4 text-sm">
-                        Become part of 1000+ users shaping the future of fitness with AI
+                        Be among 1000+ users transforming the future of fitness with AI
                     </p>
                 </div>
             </div>
