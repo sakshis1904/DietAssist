@@ -1,14 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from '@clerk/nextjs'
 import "./globals.css";
+import ConvexClerkProvider from "@/providers/ConvexClerkProvider";
 
 
 const geistSans = Geist({
@@ -33,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     
-    <ClerkProvider>
+    <ConvexClerkProvider>
       <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -41,7 +34,7 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-    </ClerkProvider>
+    </ConvexClerkProvider>
   
   );
 }
