@@ -25,7 +25,7 @@ DietAssist is a smart web application that helps users manage their diet and nut
 
 ### Authentication
 
-*Clerk Authentication
+* Clerk Authentication
 
 ### AI & Voice
 
@@ -47,14 +47,14 @@ DietAssist is a smart web application that helps users manage their diet and nut
 6. The AI delivers personalized diet recommendations directly to the user through voice responses using VAPI
 
 
-⚙️ Installation & Setup
-# Clone the repository
+### ⚙️ Installation & Setup
+### Clone the repository
 git clone https://github.com/sakshis1904/dietassist.git
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run the development server
+### Run the development server
 npm run dev
 
 ### 📌 Use Cases
