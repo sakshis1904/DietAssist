@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### 🥗 DietAssist – AI Powered Diet & Nutrition Assistant
 
-## Getting Started
+DietAssist is a smart web application that helps users manage their diet and nutrition using AI, voice input, and real-time data. Users can interact via voice to get personalized diet plans and workout plans in a simple and user-friendly way.
 
-First, run the development server:
+### 🚀 Features
 
-```bash
+- Voice-based input (Speech to Text)
+- AI-powered diet assistance
+- Secure authentication using Clerk
+- Real-time backend & database using Convex
+- Modern UI with responsive design
+- Personalized diet and workout plans based on user input
+
+### 🛠️ Tech Stack
+### Frontend
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+
+### Backend & Database
+
+* Convex (Real-time Backend & Database)
+
+### Authentication
+
+*Clerk Authentication
+
+### AI & Voice
+
+* VAPI (Voice AI Platform)
+* Gemini LLM
+
+### 🔄 How It Works
+
+1. User signs in using Clerk Authentication
+
+2. User provides diet-related voice input 
+
+3. Voice input is converted to text using VAPI
+
+4. Data is processed and stored in Convex
+
+5. Gemini LLM generates personalized diet recommendations
+
+6. The AI delivers personalized diet recommendations directly to the user through voice responses using VAPI
+
+
+⚙️ Installation & Setup
+# Clone the repository
+git clone https://github.com/sakshis1904/dietassist.git
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📌 Use Cases
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Personalized diet and workout planning
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Voice-assisted health tracking
 
-## Learn More
+- Nutrition guidance for daily meals
 
-To learn more about Next.js, take a look at the following resources:
+- AI-driven wellness support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎯 Why DietAssist?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Reduces manual diet planning
 
-## Deploy on Vercel
+- Improves user engagement with voice AI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Secure, scalable, and real-time architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Beginner-friendly yet industry-relevant tech stack
+
+### 👩‍💻 Author
+
+Sakshi Shrivastava
+Computer Science Engineering Student | Aspiring Full Stack Developer
+sakshishrivastava190304@gmail.com
