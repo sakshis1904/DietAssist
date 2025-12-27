@@ -1,7 +1,10 @@
 ### 🥗 DietAssist – AI Powered Diet & Nutrition Assistant
 
-DietAssist is a smart web application that helps users manage their diet and nutrition using AI, voice input, and real-time data. Users can interact via voice to get personalized diet plans and workout plans in a simple and user-friendly way.
+DietAssist is a full-stack AI web application that provides personalized diet and workout plans using voice interaction. The core idea was to make fitness guidance natural, fast, and accessible, especially for users who prefer speaking over typing.
 
+The system listens to user voice inputs like health goals, body details, dietary preferences, and activity level, processes them using AI, and instantly generates customized fitness plans.
+
+</br>
 ### 🚀 Features
 
 - Voice-based input (Speech to Text)
@@ -11,6 +14,7 @@ DietAssist is a smart web application that helps users manage their diet and nut
 - Modern UI with responsive design
 - Personalized diet and workout plans based on user input
 
+</br>
 ### 🛠️ Tech Stack
 ### Frontend
 * Next.js
@@ -32,6 +36,7 @@ DietAssist is a smart web application that helps users manage their diet and nut
 * VAPI (Voice AI Platform)
 * Gemini LLM
 
+</br>
 ### 🔄 How It Works
 
 1. User signs in using Clerk Authentication
@@ -46,7 +51,7 @@ DietAssist is a smart web application that helps users manage their diet and nut
 
 6. The AI delivers personalized diet recommendations directly to the user through voice responses using VAPI
 
-
+</br>
 ### ⚙️ Installation & Setup
 ### Clone the repository
 git clone https://github.com/sakshis1904/dietassist.git
@@ -67,6 +72,7 @@ npm run dev
 
 - AI-driven wellness support
 
+</br>
 ### 🎯 Why DietAssist?
 
 - Reduces manual diet planning
@@ -77,8 +83,9 @@ npm run dev
 
 - Beginner-friendly yet industry-relevant tech stack
 
+</br>
 ### 👩‍💻 Author
 
-Sakshi Shrivastava
-Computer Science Engineering Student | Aspiring Full Stack Developer
+Sakshi Shrivastava </br>
+Computer Science Engineering Student | Aspiring Full Stack Developer</br>
 sakshishrivastava190304@gmail.com
