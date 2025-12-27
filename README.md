@@ -5,6 +5,7 @@ DietAssist is a full-stack AI web application that provides personalized diet an
 The system listens to user voice inputs like health goals, body details, dietary preferences, and activity level, processes them using AI, and instantly generates customized fitness plans.
 
 <br>
+
 ### 🚀 Features
 
 - Voice-based input (Speech to Text)
@@ -15,6 +16,7 @@ The system listens to user voice inputs like health goals, body details, dietary
 - Personalized diet and workout plans based on user input
 
 <br>
+
 ### 🛠️ Tech Stack
 ### Frontend
 * Next.js
@@ -37,6 +39,7 @@ The system listens to user voice inputs like health goals, body details, dietary
 * Gemini LLM
 
 <br>
+
 ### 🔄 How It Works
 
 1. User signs in using Clerk Authentication
@@ -52,6 +55,7 @@ The system listens to user voice inputs like health goals, body details, dietary
 6. The AI delivers personalized diet recommendations directly to the user through voice responses using VAPI
 
 <br>
+
 ### ⚙️ Installation & Setup
 ### Clone the repository
 git clone https://github.com/sakshis1904/dietassist.git
@@ -63,6 +67,7 @@ npm install
 npm run dev
 
 <br>
+
 ### 📌 Use Cases
 
 - Personalized diet and workout planning
@@ -74,6 +79,7 @@ npm run dev
 - AI-driven wellness support
 
 <br>
+
 ### 🎯 Why DietAssist?
 
 - Reduces manual diet planning
@@ -85,6 +91,7 @@ npm run dev
 - Beginner-friendly yet industry-relevant tech stack
 
 <br>
+
 ### 👩‍💻 Author
 
 Sakshi Shrivastava </br>
